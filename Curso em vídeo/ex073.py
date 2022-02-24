@@ -1,0 +1,5 @@
+t_brasileiro = ('Sao paulo', 'Corinthians', 'Palmeiras', 'Flamengo', 'Chapecoense')
+a = t_brasileiro.index('Chapecoense')
+print(f'A Chapecoense está na {a+1}ª posição da tabela.')
+print(f'Os 4 últimos da tabela são {t_brasileiro[-4:]}')
+print(sorted(t_brasileiro))

@@ -1,0 +1,5 @@
+num = int(input('Digite o numero que se quer saber a tabuada : '))
+print('_'*12)
+print('{} x {:2} = {}'.format(num, 5, 5*num))
+print('{} x {} = {}'.format(num, 10, 10*num))
+print('_'*12)

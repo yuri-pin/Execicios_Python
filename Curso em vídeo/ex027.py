@@ -1,0 +1,5 @@
+nome = input('Digite o seu nome: ').strip()
+lista = nome.split()
+print('Prazer em conhece-lo')
+print('Seu primeiro nome é {}'.format(lista[0].capitalize()))
+print('Seu ultimo nome é {}'.format(lista[len(lista)-1].capitalize()))
